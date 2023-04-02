@@ -1,6 +1,12 @@
 body {
   background-color: #dcdde1;
 }
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 
 header {
   height: 100px;
@@ -9,8 +15,24 @@ header {
   border-bottom: solid 1px #2f3640;
   vertical-align: center;
   text-align: center;
+  margin-bottom: 5px;
 }
 
 h1 {
   color: #2f3640;
+}
+
+article {
+  background-color: #f5f6fa;
+  width: 700px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+table {
+  width: 700px;
+  color: #e84118;
+  border-collapse: collapse;
+  border: solid 2px #2f3640;
 }
