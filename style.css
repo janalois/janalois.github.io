@@ -1,0 +1,16 @@
+body {
+  background-color: #dcdde1;
+}
+
+header {
+  height: 100px;
+  line-height: 100px;
+  background-color: #e84118;
+  border-bottom: solid 1px #2f3640;
+  vertical-align: center;
+  text-align: center;
+}
+
+h1 {
+  color: #2f3640;
+}
