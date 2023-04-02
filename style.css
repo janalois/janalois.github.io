@@ -1,9 +1,10 @@
-body {
+* body {
   background-color: #dcdde1;
 }
 main {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
@@ -11,28 +12,37 @@ main {
 header {
   height: 100px;
   line-height: 100px;
-  background-color: #e84118;
-  border-bottom: solid 1px #2f3640;
+  background-color: #ff0303;
+  border-bottom: solid 1px #2e3840;
   vertical-align: center;
   text-align: center;
   margin-bottom: 5px;
 }
 
 h1 {
-  color: #2f3640;
+  color: #1e1e1e;
 }
 
-article {
+.model {
   background-color: #f5f6fa;
   width: 700px;
   text-align: center;
   border-radius: 5px;
   padding: 5px;
+  margin: 10px;
+  box-shadow: 0 5px 15px 2px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 1s ease;
+  transition: transform 0.5s ease;
 }
 
 table {
   width: 700px;
-  color: #e84118;
+  color: #ff0303;
   border-collapse: collapse;
-  border: solid 2px #2f3640;
+  border: solid 2px #2e3840;
+}
+
+.model:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 15px 2px rgba(0, 0, 0, 0.1);
 }
