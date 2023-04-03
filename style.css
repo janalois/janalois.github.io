@@ -1,15 +1,32 @@
+/*Generella element*/
+
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+h1 {
+  color: #f5f6fa;
+}
+
 body {
   background-color: #dcdde1;
 }
+
 main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+}
+
+table {
+  table-layout: fixed;
+  width: 700px;
+  color: #ff0303;
+  border-collapse: collapse;
+  border: solid 2px #2e3840;
+  font-size: 20px;
 }
 
 header {
@@ -22,35 +39,15 @@ header {
   margin-bottom: 5px;
 }
 
-h1 {
-  color: #f5f6fa;
-}
+/*Klasser*/
 
-.model {
-  background-color: #f5f6fa;
-  width: 700px;
+.footer-section {
+  display: flex;
+  justify-content: center;
+  vertical-align: center;
   text-align: center;
-  border-radius: 5px;
-  padding: 5px;
-  margin: 10px;
-  box-shadow: 0 5px 15px 2px #2e3840;
-
-  transition: all 0.5s ease;
 }
 
-table {
-  table-layout: fixed;
-  width: 700px;
-  color: #ff0303;
-  border-collapse: collapse;
-  border: solid 2px #2e3840;
-  font-size: 20px;
-}
-
-.model:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 15px 2px #2e3840;
-}
 .first-row {
   background-color: #2e3840;
   line-height: 40px;
@@ -58,6 +55,8 @@ table {
   font-weight: bold;
   text-align: center;
 }
+
+/*Klasser med animeringar*/
 
 .footer-table {
   table-layout: fixed;
@@ -73,14 +72,23 @@ table {
   transition: all 0.5s ease;
 }
 
-.footer-section {
-  display: flex;
-  justify-content: center;
-  vertical-align: center;
-  text-align: center;
+.footer-table:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 15px 2px #2e3840;
 }
 
-.footer-table:hover {
+.model {
+  background-color: #f5f6fa;
+  width: 700px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+  box-shadow: 0 5px 15px 2px #2e3840;
+  transition: all 0.5s ease;
+}
+
+.model:hover {
   transform: translateY(-3px);
   box-shadow: 0 10px 15px 2px #2e3840;
 }
