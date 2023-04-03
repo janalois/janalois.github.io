@@ -39,6 +39,7 @@ h1 {
 }
 
 table {
+  table-layout: fixed;
   width: 700px;
   color: #ff0303;
   border-collapse: collapse;
@@ -49,4 +50,10 @@ table {
 .model:hover {
   transform: translateY(-3px);
   box-shadow: 0 10px 15px 2px #2e3840;
+}
+.first-row {
+  background-color: #2e3840;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: bold;
 }
