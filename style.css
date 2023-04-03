@@ -15,7 +15,7 @@ main {
 header {
   height: 100px;
   line-height: 100px;
-  background-color: #ff0303;
+  background: linear-gradient(98.3deg, #2e3840 10.6%, #ff0303 97.7%);
   border-bottom: solid 1px #2e3840;
   vertical-align: center;
   text-align: center;
@@ -23,7 +23,7 @@ header {
 }
 
 h1 {
-  color: #1e1e1e;
+  color: #f5f6fa;
 }
 
 .model {
@@ -56,4 +56,31 @@ table {
   line-height: 40px;
   font-size: 20px;
   font-weight: bold;
+  text-align: center;
+}
+
+.footer-table {
+  table-layout: fixed;
+  width: 2200px;
+  color: #ff0303;
+  border-collapse: collapse;
+  border: solid 2px #2e3840;
+  font-size: 20px;
+  background-color: #f5f6fa;
+  margin-top: 10px;
+  box-shadow: 0 5px 15px 2px #2e3840;
+
+  transition: all 0.5s ease;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: center;
+  vertical-align: center;
+  text-align: center;
+}
+
+.footer-table:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 15px 2px #2e3840;
 }
