@@ -8,7 +8,11 @@
     <title>Ducati Motorcycle Lineup 2023</title>
   </head>
   <body>
+    <!-- Använder Main, Header, Footer, Article och Section istället för att använda Div till allt.  -->
     <header><h1>Ducati Motorcycle Lineup 2023</h1></header>
+    <!-- Main delen innehåller korten med de olika modellerna, de ligger i en flexbox konfiguration men är inte resoivt utformadde. -->
+    <!-- Varje "kort" har fått taggen article istället för Div för att förtydliga innebörden. -->
+    <!-- Den ävre raden i alla tabeller har fått en colspan för att snygga till modelnamnet lite.. -->
     <main>
       <article class="model child1">
         <img src="DesertX.png" alt="Picture of a Motorcycle" />
@@ -228,6 +232,7 @@
         </table>
       </article>
     </main>
+    <!-- I fottern finns en tabell där alla modeller är samlade. Jag har inte avnänt varken colspan eller rowspan i denna då jag inte funnit anledning. -->
     <footer>
       <section class="footer-section">
         <table class="footer-table" border="1">
